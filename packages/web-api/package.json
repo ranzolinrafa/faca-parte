@@ -1,0 +1,18 @@
+{
+  "name": "@monorepo/web-api",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "scripts": {
+    "prestart": "yarn",
+    "start": "nodemon -r esm server.js"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "pm2": "^4.2.1",
+    "restify": "^8.5.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "2.0.7"
+  }
+}
